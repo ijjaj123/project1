@@ -1,0 +1,10 @@
+
+{%extends 'basic.html'%}
+{%block 'body' %}
+
+{% for student in student%}
+<li>
+    {{student.name}}-{{student.age}}
+</li>
+{%endfor%}
+{%endblock%}
